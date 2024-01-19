@@ -2,7 +2,7 @@
 
 <div class="big-card__photo">
  <img
-    src="https://cinepop.com.br/wp-content/uploads/2023/09/Godzilla-Minus-One.jpg"
+    src="{{ photoCover }}"
     alt=""
     height="200px"
     srcset=""
@@ -10,14 +10,14 @@
 </div>
 
 <div class="big-card__title">
-  <h1><a href="#">Títulos e informações que agregam a imagem</a></h1>
+  <h1><a href="https://jovemnerd.com.br/nerdbunker/godzilla-minus-one-critica/"
+    >{{ cardTitle }}</a></h1>
 </div>
 
 <div class="big-card__description">
   <p>
     <a href="#">
-    Informações completas da notícia, de forma objetiva e
-    elencando todos os acontecimentos em uma narrativa suscinta e plausível.
+    {{ cardDescription }}
     </a>
   </p>
 </div>
