@@ -10,13 +10,12 @@
 </div>
 
 <div class="big-card__title">
-  <h1><a href="https://jovemnerd.com.br/nerdbunker/godzilla-minus-one-critica/"
-    >{{ cardTitle }}</a></h1>
-</div>
+  <h1><a [routerLink]="['content', id]">{{ cardTitle }}</a></h1>
+</div>'
 
 <div class="big-card__description">
   <p>
-    <a href="#">
+    <a [routerLink]="['content', id]">
     {{ cardDescription }}
     </a>
   </p>
